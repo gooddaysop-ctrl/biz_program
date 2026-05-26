@@ -30,14 +30,14 @@ st.latex('\int_a^bf(x)dx')
 "$$\int_a^bf(x)dx$$"
 
 '### :orange[이미지: st.image()]'  
-st.image("../data/python이미지.jpeg",caption="파이썬 로고",width=500)  
+st.image("../Data/python이미지.jpeg",caption="파이썬 로고",width=500)  
 # 상대경로를 써줘야함  (절대경로는 깃허브에서 복잡함)
 
 '### :orange[오디오: st.audio()]'  
-st.audio("../data/음악.mp3", format="audio/mpeg", loop=True)
+st.audio("../Data/음악.mp3", format="audio/mpeg", loop=True)
 
 '### :orange[동영상: st.video()]'
-video_file=open("../data/영상.MOV","rb")
+video_file=open("../Data/영상.MOV","rb")
 video_bytes=video_file.read()
 
 st.video(video_bytes)
